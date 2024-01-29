@@ -103,8 +103,8 @@ The stick man animation on this LCD is formed from special characters derived fr
 <th width="420">LCD Main Display</th>
 </tr>
 <tr>
-<td><img src="" alt="LCD-pre-display"></td>
-<td><img src="" alt="LCD-main-display"></td>
+<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/03da7826-fe98-452c-a206-176361fcf53c" alt="LCD-pre-display"></td>
+<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/48681b91-1ca1-4d75-9f75-79559aa234ce" alt="LCD-main-display"></td>
 </tr>
 </table>
 
