@@ -96,7 +96,16 @@
 <br><br>
 
 ## Highlights
-<img src="" alt="animation-">
+<table>
+<tr>
+<th width="420">LCD Pre-Display</th>
+<th width="420">LCD Main Display</th>
+</tr>
+<tr>
+<td><img src="" alt="LCD-pre-display"></td>
+<td><img src="" alt="LCD-main-display"></td>
+</tr>
+</table>
 
 <br><br>
 
