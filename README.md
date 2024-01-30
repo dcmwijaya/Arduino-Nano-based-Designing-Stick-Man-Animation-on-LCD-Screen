@@ -99,6 +99,12 @@ The stick man animation on this LCD is formed from special characters derived fr
 
 <br><br>
 
+## LCD Custom Character
+To easily create a LCD Custom Character, you can access the link below.
+```
+https://maxpromer.github.io/LCD-Character-Creator/
+```
+
 ## Get Started
 1. Download and extract this repository.<br><br>
    
