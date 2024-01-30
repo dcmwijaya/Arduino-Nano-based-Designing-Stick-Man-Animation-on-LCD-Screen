@@ -38,6 +38,22 @@ The stick man animation on this LCD is formed from special characters derived fr
    
 <br><br>
 
+## Basic Knowledge
+<img src="" alt="lcd-i2c">
+<br><br>
+
+<strong>The picture above explains that the 16x2 I2C LCD has :</strong><br><br>
+
+• Columns -> ``` 16 ```
+
+• Rows -> ``` 2 ```
+
+• Bytes in each led matrix -> ``` 8 ```
+
+• Bits in each led matrix -> In each row, there are ``` 5 ```
+
+<br><br>
+
 ## Project Designs
 <table>
 <tr>
