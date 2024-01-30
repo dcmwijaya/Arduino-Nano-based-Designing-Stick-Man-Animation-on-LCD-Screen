@@ -50,7 +50,7 @@ The stick man animation on this LCD is formed from special characters derived fr
 
 • Bytes in each led matrix -> ``` 8 ```
 
-• Bits in each led matrix -> In each row, there are ``` 5 ```
+• Bits in each led matrix -> in each row, there are ``` 5 ```
 
 <br><br>
 
