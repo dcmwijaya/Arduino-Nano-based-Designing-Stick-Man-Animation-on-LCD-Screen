@@ -1,28 +1,28 @@
 #include <LiquidCrystal_I2C.h> // calling LCD I2C library
 LiquidCrystal_I2C lcd(0x27, 16, 2); // set I2C address and LCD size
 
-// grid design on special character 1
-byte PersonPose1[8] = {
-  0b01110, // image byte on row 1
-  0b01110, // image byte on row 2
-  0b00100, // image byte on row 3
-  0b00111, // image byte on row 4
-  0b01100, // image byte on row 5
-  0b10110, // image byte on row 6
-  0b00101, // image byte on row 7
-  0b11001 // image byte on row 8
+// pixels for special character 1
+byte PersonPose1[8] = { // 1 byte for each row of 5 x 8 led matrix
+  B01110, // byte 1 -> 5 bits
+  B01110, // byte 2 -> 5 bits
+  B00100, // byte 3 -> 5 bits
+  B00111, // byte 4 -> 5 bits
+  B01100, // byte 5 -> 5 bits
+  B10110, // byte 6 -> 5 bits
+  B00101, // byte 7 -> 5 bits
+  B11001 // byte 8 -> 5 bits
 };
 
-// grid design on special character 2
-byte PersonPose2[8] = {
-  0b01110, // image byte on row 1
-  0b01110, // image byte on row 2
-  0b00100, // image byte on row 3
-  0b10100, // image byte on row 4
-  0b01110, // image byte on row 5
-  0b00101, // image byte on row 6
-  0b01010, // image byte on row 7
-  0b10001 // image byte on row 8
+// pixels for special characters 2
+byte PersonPose2[8] = { // 1 byte for each row of 5 x 8 led matrix
+  B01110, // byte 1 -> 5 bits
+  B01110, // byte 2 -> 5 bits
+  B00100, // byte 3 -> 5 bits
+  B10100, // byte 4 -> 5 bits
+  B01110, // byte 5 -> 5 bits
+  B00101, // byte 6 -> 5 bits
+  B01010, // byte 7 -> 5 bits
+  B10001 // byte 8 -> 5 bits
 };
 
 // setup method
