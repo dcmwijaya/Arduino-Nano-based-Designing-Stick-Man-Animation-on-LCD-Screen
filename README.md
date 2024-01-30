@@ -39,7 +39,7 @@ The stick man animation on this LCD is formed from special characters derived fr
 <br><br>
 
 ## Basic Knowledge
-<img src="" alt="lcd-i2c">
+<img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/9f1ce021-724e-478b-87a5-e8716d9d75da" alt="lcd-i2c">
 <br><br>
 
 <strong>The picture above explains that the 16x2 I2C LCD has :</strong><br><br>
