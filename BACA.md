@@ -10,7 +10,7 @@ Animasi stick man pada LCD ini dibentuk dari karakter khusus yang berasal dari p
 <br><br>
 
 ## Kebutuhan Proyek
-| Media | Deskripsi |
+| Bagian | Deskripsi |
 | --- | --- |
 | Papan Pengembangan | Arduino Nano V3 |
 | Editor Kode | Arduino IDE |
