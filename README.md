@@ -10,7 +10,7 @@ The stick man animation on this LCD is formed from special characters derived fr
 <br><br>
 
 ## Project Requirements
-| Media | Description |
+| Part | Description |
 | --- | --- |
 | Development Board | Arduino Nano V3 |
 | Code Editor | Arduino IDE |
