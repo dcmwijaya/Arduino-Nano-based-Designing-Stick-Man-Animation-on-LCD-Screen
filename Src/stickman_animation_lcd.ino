@@ -3,6 +3,8 @@ LiquidCrystal_I2C lcd(0x27, 16, 2); // set I2C address and LCD size
 
 // pixels for special character 1
 byte PersonPose1[8] = { // 1 byte for each row of 5 x 8 led matrix
+  // the prefix "B" is the Arduino specific binary formatter
+  // A 0 means pixel off and A 1 means pixel on
   B01110, // byte 1 -> 5 bits
   B01110, // byte 2 -> 5 bits
   B00100, // byte 3 -> 5 bits
@@ -15,6 +17,8 @@ byte PersonPose1[8] = { // 1 byte for each row of 5 x 8 led matrix
 
 // pixels for special characters 2
 byte PersonPose2[8] = { // 1 byte for each row of 5 x 8 led matrix
+  // the prefix "B" is the Arduino specific binary formatter
+  // A 0 means pixel off and A 1 means pixel on
   B01110, // byte 1 -> 5 bits
   B01110, // byte 2 -> 5 bits
   B00100, // byte 3 -> 5 bits
