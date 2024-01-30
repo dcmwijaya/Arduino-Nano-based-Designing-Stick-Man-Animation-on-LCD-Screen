@@ -105,6 +105,8 @@ To easily create a LCD Custom Character, you can access the link below.
 https://maxpromer.github.io/LCD-Character-Creator/
 ```
 
+<br><br>
+
 ## Get Started
 1. Download and extract this repository.<br><br>
    
