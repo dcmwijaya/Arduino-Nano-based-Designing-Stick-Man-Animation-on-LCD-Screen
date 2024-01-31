@@ -11,7 +11,6 @@ byte Rstickman3[8] = { B00000, B00000, B00001, B00001, B00011, B11111, B00000, B
 byte Rstickman5[8] = { B00000, B00000, B00001, B00001, B00011, B00111, B00110, B00100 }; byte Rstickman6[8] = { B11100, B11100, B11100, B11100, B10110, B00110, B00110, B00110 }; // bits related to foot-2 design
 
 // pixels for stickman -> pose 2
-
 // 1 byte for each row of 5 x 8 led matrix
 // the prefix "B" is the Arduino specific binary formatter
 // A 0 means pixel off and A 1 means pixel on
