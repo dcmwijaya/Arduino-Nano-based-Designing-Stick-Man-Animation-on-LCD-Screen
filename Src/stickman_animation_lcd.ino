@@ -31,8 +31,8 @@ void stickman_right(){
   // custom character initialization -> Lstickman
   lcd.createChar(1,Rstickman1); lcd.createChar(2,Rstickman2); lcd.createChar(3,Rstickman3); lcd.createChar(4,Rstickman4); lcd.createChar(5,Rstickman5); lcd.createChar(6,Rstickman6);
 
-  // count forward from 0 to 30
-  for (int count = 0; count < 30; count ++){
+  // count forward from 0 to 20
+  for (int count = 0; count <= 20; count ++){
     lcd.clear(); // erase text on the LCD screen
     if(count >= 5){ // If the count position is already in the 5th column, then:
       lcd.setCursor(count-5,0); // set the cursor on row 1
@@ -44,9 +44,9 @@ void stickman_right(){
     }
     if(count >= 2){ // If the count position is already in the 2nd column, then:
       lcd.setCursor(count-2,0); // set the cursor on row 1
-      lcd.print("Stick Man");
+      lcd.print("Stick Man"); // print text on lcd screen
       lcd.setCursor(count-2,1); // set the cursor on row 2
-      lcd.print("Animation");
+      lcd.print("Animation"); // print text on lcd screen
     }
     if((count % 2) == 0) { // if the count is even:
       if(count >= 5){ // If the count position is already in the 5th column, then:
@@ -77,39 +77,39 @@ void stickman_left(){
   // custom character initialization -> Lstickman
   lcd.createChar(7,Lstickman1); lcd.createChar(8,Lstickman2); lcd.createChar(9,Lstickman3); lcd.createChar(10,Lstickman4); lcd.createChar(11,Lstickman5); lcd.createChar(12,Lstickman6);
 
-  // count down from 30 to 1
-  for (int count = 30; count > 0; count --){
+  // count down from 20 to 0
+  for (int count = 20; count >= 0; count --){
     lcd.clear(); // erase text on the LCD screen
-    if(count <= 16){ // If the count position is already in the 16th column, then:
+    if(count <= 18){ // If the count position is already in the 18th column, then:
       lcd.setCursor(count+3,0); // set the cursor on row 1
       lcd.write(7); // display special characters -> Lstickman1
     }
-    if(count <= 15){ // If the count position is already in the 15th column, then:
+    if(count <= 17){ // If the count position is already in the 17th column, then:
       lcd.setCursor(count+2,0); // set the cursor on row 1
       lcd.write(8); // display special characters -> Lstickman2
     }
-    if(count <= 14){ // If the count position is already in the 14th column, then:
+    if(count <= 15){ // If the count position is already in the 15th column, then:
       lcd.setCursor(count+5,0); // set the cursor on row 1
-      lcd.print("This is my");
+      lcd.print("This is my"); // print text on lcd screen
       lcd.setCursor(count+5,1); // set the cursor on row 2
-      lcd.print("Ninja Path");
+      lcd.print("Ninja Path"); // print text on lcd screen
     }
     if((count % 2) == 0) { // if the count is even:
-      if(count <= 16){ // If the count position is already in the 16th column, then:
+      if(count <= 18){ // If the count position is already in the 18th column, then:
         lcd.setCursor(count+3,1); // set the cursor on row 2
         lcd.write(9); // display special characters -> Lstickman3
       }
-      if(count <= 15){ // If the count position is already in the 15th column, then:
+      if(count <= 17){ // If the count position is already in the 17th column, then:
         lcd.setCursor(count+2,1); // set the cursor on row 2
         lcd.write(10); // display special characters -> Lstickman4
       }
     }
     else { // if the count is odd:
-      if(count <= 16){ // If the count position is already in the 16th column, then:
+      if(count <= 18){ // If the count position is already in the 18th column, then:
         lcd.setCursor(count+3,1); // set the cursor on row 2
         lcd.write(11); // display special characters -> Lstickman5
       }
-      if(count <= 15){ // If the count position is already in the 15th column, then:
+      if(count <= 17){ // If the count position is already in the 17th column, then:
         lcd.setCursor(count+2,1); // set the cursor on row 2
         lcd.write(12); // display special characters -> Lstickman6
       }
