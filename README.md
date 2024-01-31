@@ -123,12 +123,12 @@ https://maxpromer.github.io/LCD-Character-Creator/
 ## Highlights
 <table>
 <tr>
-<th width="420">LCD Pre-Display</th>
-<th width="420">LCD Main Display</th>
+<th width="420">Animation display-1</th>
+<th width="420">Animation display-2</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/03da7826-fe98-452c-a206-176361fcf53c" alt="LCD-pre-display"></td>
-<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/48681b91-1ca1-4d75-9f75-79559aa234ce" alt="LCD-main-display"></td>
+<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/2a595eea-eddd-4437-bc9a-6fd36fc2099c" alt="display-1"></td>
+<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/3e1530d8-5c63-4401-af09-10768c10e239" alt="display-2"></td>
 </tr>
 </table>
 
