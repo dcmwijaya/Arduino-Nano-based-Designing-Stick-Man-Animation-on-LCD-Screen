@@ -1,32 +1,134 @@
 #include <LiquidCrystal_I2C.h> // calling LCD I2C library
 LiquidCrystal_I2C lcd(0x27, 16, 2); // set I2C address and LCD size
 
-// pixels for special character 1
-byte PersonPose1[8] = { // 1 byte for each row of 5 x 8 led matrix
-  // the prefix "B" is the Arduino specific binary formatter
-  // A 0 means pixel off and A 1 means pixel on
-  B01110, // byte 1 -> 5 bits
-  B01110, // byte 2 -> 5 bits
-  B00100, // byte 3 -> 5 bits
-  B00111, // byte 4 -> 5 bits
-  B01100, // byte 5 -> 5 bits
-  B10110, // byte 6 -> 5 bits
-  B00101, // byte 7 -> 5 bits
-  B11001 // byte 8 -> 5 bits
+// stickman pose-1 pixels
+// bagian tangan
+byte Rstickman1[8] = { 
+  B00000,
+  B00000,
+  B00000,
+  B00000,
+  B01000,
+  B00111,
+  B10001,
+  B01111
+};
+// bagian kepala dan badan
+byte Rstickman2[8] = { 
+  B00000,
+  B11111,
+  B01101,
+  B01111,
+  B00111,
+  B11100,
+  B11100,
+  B11100
+};
+// bagian kaki
+byte Rstickman3[8] = { 
+  B00000,
+  B00000,
+  B00001,
+  B00001,
+  B00011,
+  B11111,
+  B00000,
+  B00000 
+};
+byte Rstickman4[8] = { 
+  B11100,
+  B11100,
+  B11110,
+  B11111,
+  B11011,
+  B10011,
+  B00001,
+  B00001
+};
+byte Rstickman5[8] = { 
+  B00000,
+  B00000,
+  B00001,
+  B00001,
+  B00011,
+  B00111,
+  B00110,
+  B00100 
+};
+byte Rstickman6[8] = { 
+  B11100,
+  B11100,
+  B11100,
+  B11100,
+  B10110,
+  B00110,
+  B00110,
+  B00110
 };
 
-// pixels for special characters 2
-byte PersonPose2[8] = { // 1 byte for each row of 5 x 8 led matrix
-  // the prefix "B" is the Arduino specific binary formatter
-  // A 0 means pixel off and A 1 means pixel on
-  B01110, // byte 1 -> 5 bits
-  B01110, // byte 2 -> 5 bits
-  B00100, // byte 3 -> 5 bits
-  B10100, // byte 4 -> 5 bits
-  B01110, // byte 5 -> 5 bits
-  B00101, // byte 6 -> 5 bits
-  B01010, // byte 7 -> 5 bits
-  B10001 // byte 8 -> 5 bits
+// stickman pose-2 pixels
+// bagian tangan
+byte Lstickman1[8] = { 
+  B00000,
+  B00000,
+  B00000,
+  B00000,
+  B00010,
+  B11100,
+  B10001,
+  B11110
+};
+// bagian kepala dan badan
+byte Lstickman2[8] = { 
+  B00000,
+  B11111,
+  B10110,
+  B11110,
+  B11100,
+  B00111,
+  B00111,
+  B00111
+};
+// bagian kaki
+byte Lstickman3[8] = { 
+  B00000,
+  B00000,
+  B10000,
+  B10000,
+  B11000,
+  B11111,
+  B00000,
+  B00000 
+};
+byte Lstickman4[8] = { 
+  B00111,
+  B00111,
+  B01111,
+  B11111,
+  B11011,
+  B11001,
+  B10000,
+  B10000
+};
+byte Lstickman5[8] = { 
+  B00000,
+  B00000,
+  B10000,
+  B10000,
+  B11000,
+  B11100,
+  B01100,
+  B00100 
+};
+byte Lstickman6[8] = { 
+  B00111,
+  B00111,
+  B00111,
+  B00111,
+  B01101,
+  B01100,
+  B01100,
+  B01100
 };
 
 // setup method
@@ -37,75 +139,101 @@ void setup() {
 
 // loop method
 void loop(){
-  stickmanRight(); // calls the stickmanRight method
-  stickmanLeft(); // calls the stickmanLeft method
+  stickman_right();
+  stickman_left();
 }
 
 // method for starting the LCD
 void startingLCD(){
   lcd.init(); // I2C LCD Initiation
   lcd.backlight(); // turn on the LCD backlight
-  lcd.setCursor(4,0); // set the cursor on row 1, column 4
-  lcd.print("Stick Man"); // print text -> Stick Man
-  lcd.setCursor(4,1); // set the cursor on row 2, column 4
-  lcd.print("Animation"); // print text -> Animation
-  delay(10000); // delay time -> 10 second
-  lcd.createChar(0, PersonPose1); // custom character initialization -> PersonPose1
-  lcd.createChar(1, PersonPose2); // custom character initialization -> PersonPose2
+//  lcd.setCursor(4,0); // set the cursor on row 1, column 4
+//  lcd.print("Stick Man"); // print text -> Stick Man
+//  lcd.setCursor(4,1); // set the cursor on row 2, column 4
+//  lcd.print("Animation"); // print text -> Animation
+//  delay(10000); // delay time -> 10 second
 }
 
-// stick man moves towards the right
-void stickmanRight(){
-  for(int count = 0; count < 8; count++){ // count forward from column 1 -> column 8
-    lcd.clear(); // erase text on the LCD screen
-    if((count % 2) == 0) { // if the count is even:
-      lcd.setCursor(count,0); // set the cursor on row 1
-      lcd.write((byte)0); // display special characters -> PersonPose1
-    } 
-    else { // if the count is odd:
-      lcd.setCursor(count,0); // set the cursor on row 1
-      lcd.write((byte)1); // display special characters -> PersonPose2
+void stickman_right(){
+  lcd.createChar(1,Rstickman1);
+  lcd.createChar(2,Rstickman2);
+  lcd.createChar(3,Rstickman3);
+  lcd.createChar(4,Rstickman4);
+  lcd.createChar(5,Rstickman5);
+  lcd.createChar(6,Rstickman6);
+  for (int count = 0; count < 16; count ++){
+    lcd.clear();
+    if(count >= 3){
+      lcd.setCursor(count-3,0);
+      lcd.write(1);
     }
-    delay(1000); // delay time -> 1 second
+    if(count >= 2){
+      lcd.setCursor(count-2,0);
+      lcd.write(2);
+    }
+    if((count % 2) == 0) { // if the count is even:
+      if(count >= 3){
+        lcd.setCursor(count-3,1);
+        lcd.write(3);
+      }
+      if(count >= 2){
+        lcd.setCursor(count-2,1);
+        lcd.write(4);
+      }
+      delay(400);
+    }
+    else {
+      if(count >= 3){
+        lcd.setCursor(count-3,1);
+        lcd.write(5);
+      }
+      if(count >= 2){
+        lcd.setCursor(count-2,1);
+        lcd.write(6);
+      }
+      delay(400);
+    }
   }
-  for(int count = 8; count <= 16; count++){ // count forward from column 8 -> column 16
-    lcd.clear(); // erase text on the LCD screen
-    if((count % 2) == 0) { // if the count is even:
-      lcd.setCursor(count,1); // set the cursor on row 2
-      lcd.write((byte)0); // display special characters -> PersonPose1
-    } 
-    else { // if the count is odd:
-      lcd.setCursor(count,1); // set the cursor on row 2
-      lcd.write((byte)1); // display special characters -> PersonPose2
-    }
-    delay(1000); // delay time -> 1 second
-  } 
 }
 
-// stick man moves towards the left
-void stickmanLeft(){
-   for(int count = 16; count >= 8; count--){ // count down from column 16 -> column 8
-    lcd.clear(); // erase text on the LCD screen
-    if((count % 2) == 0) { // if the count is even:
-      lcd.setCursor(count,0); // set the cursor on row 1
-      lcd.write((byte)0); // display special characters -> PersonPose1
-    } 
-    else{ // if the count is odd:
-      lcd.setCursor(count,0); // set the cursor on row 1
-      lcd.write((byte)1); // display special characters -> PersonPose2
+void stickman_left(){
+  lcd.createChar(7,Lstickman1);
+  lcd.createChar(8,Lstickman2);
+  lcd.createChar(9,Lstickman3);
+  lcd.createChar(10,Lstickman4);
+  lcd.createChar(11,Lstickman5);
+  lcd.createChar(12,Lstickman6);
+  for (int count = 16; count >= 0; count --){
+    lcd.clear();
+    if(count <= 16){
+      lcd.setCursor(count+3,0);
+      lcd.write(7);
     }
-    delay(1000); // delay time -> 1 second
-  }
-  for(int count = 7; count > -1; count--){ // count down from column 8 -> column 1
-    lcd.clear(); // erase text on the LCD screen
-    if((count % 2) == 0) { // if the count is even:
-      lcd.setCursor(count,1); // set the cursor on row 2
-      lcd.write((byte)0); // display special characters -> PersonPose1
-    } 
-    else{ // if the count is odd:
-      lcd.setCursor(count,1); // set the cursor on row 2
-      lcd.write((byte)1); // display special characters -> PersonPose2
+    if(count <= 15){
+      lcd.setCursor(count+2,0);
+      lcd.write(8);
     }
-    delay(1000); // delay time -> 1 second
+    if((count % 2) == 0) { // if the count is even:
+      if(count <= 16){
+        lcd.setCursor(count+3,1);
+        lcd.write(9);
+      }
+      if(count <= 15){
+        lcd.setCursor(count+2,1);
+        lcd.write(10);
+      }
+      delay(400);
+    }
+    else {
+      if(count <= 16){
+        lcd.setCursor(count+3,1);
+        lcd.write(11);
+      }
+      if(count <= 15){
+        lcd.setCursor(count+2,1);
+        lcd.write(12);
+      }
+      delay(400);
+    }
   }
 }
