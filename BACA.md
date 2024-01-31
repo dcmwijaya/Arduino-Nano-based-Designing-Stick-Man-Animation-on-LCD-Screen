@@ -99,8 +99,6 @@ Animasi stick man pada LCD ini dibentuk dari karakter khusus yang berasal dari p
 
 <br><br>
 
-<br><br>
-
 ## Karakter Khusus LCD
 Untuk membuat Karakter Khusus LCD dengan mudah, anda dapat mengakses tautan di bawah ini.
 ```
