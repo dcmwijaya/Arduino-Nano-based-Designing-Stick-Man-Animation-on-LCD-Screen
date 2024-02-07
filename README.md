@@ -94,8 +94,8 @@ The stick man animation on this LCD is formed from special characters derived fr
 6. Before uploading the program please click: ``` Verify ```.<br><br>
 
 7. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
-   
-8. Please enjoy [Done].
+
+8. If there is still a problem when uploading the program, then try to check the ``` driver ``` / ``` port ``` / ``` others ``` section.
 
 <br><br>
 
