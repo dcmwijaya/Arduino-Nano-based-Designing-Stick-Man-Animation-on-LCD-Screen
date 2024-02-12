@@ -18,31 +18,40 @@ The stick man animation on this LCD is formed from special characters derived fr
 | Programming Language | C/C++ |
 | Arduino Library | LiquidCrystal I2C |
 | Display | LCD I2C (x1) |
-| Other Components | Mini USB cable - USB type A (x1) and Jumper cable (1 set) |
+| Other Components | • Mini USB cable - USB type A (x1)<br>• Jumper cable (1 set) |
 
 <br><br>
 
 ## Download & Install
 1. Arduino IDE
 
+   <table><tr><td width="810">
+
    ```
    https://www.arduino.cc/en/software
    ```
-<br>
+
+   </td></tr></table><br>
 
 2. USB-Serial CH340
+
+   <table><tr><td width="810">
 
    ```
    https://bit.ly/CH340_Driver
    ```
+
+   </td></tr></table>
    
 <br><br>
 
 ## Basic Knowledge
-<img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/9f1ce021-724e-478b-87a5-e8716d9d75da" alt="lcd-i2c">
+<img width="840" src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/9f1ce021-724e-478b-87a5-e8716d9d75da" alt="lcd-i2c">
 <br><br>
 
-<strong>The picture above explains that the 16x2 I2C LCD has :</strong><br><br>
+<strong>The picture above explains that the 16x2 I2C LCD has :</strong>
+
+<table><tr><td width="840">
 
 • Columns -> ``` 16 ```
 
@@ -51,6 +60,8 @@ The stick man animation on this LCD is formed from special characters derived fr
 • Bytes in each led matrix -> ``` 8 ```
 
 • Bits in each led matrix -> in each row, there are ``` 5 ```
+
+</td></tr></table>
 
 <br><br>
 
