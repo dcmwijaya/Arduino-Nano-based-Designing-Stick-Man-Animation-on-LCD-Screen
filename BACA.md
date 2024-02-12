@@ -139,7 +139,7 @@ Animasi stick man pada LCD ini dibentuk dari karakter khusus yang berasal dari p
 
 7. Jika tidak ada kesalahan dalam kode program, silakan klik: ``` Upload ```.<br><br>
 
-8. Jika saat unggah program masih terdapat masalah, maka coba periksa pada bagian ``` driver ``` / ``` port ``` / ``` yang lainnya ```.
+8. Jika masih ada masalah saat unggah program, maka coba periksa pada bagian ``` driver ``` / ``` port ``` / ``` yang lainnya ```.
 
 <br><br>
 
