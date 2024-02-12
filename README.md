@@ -88,19 +88,45 @@ The stick man animation on this LCD is formed from special characters derived fr
 <br><br>
 
 ## Arduino IDE Setup
-1. Open the ``` Arduino IDE ``` first, then open this project by clicking: ``` File ``` -> ``` Open ``` -> ``` stickman_animation_lcd.ino ```.<br><br>
+1. Open the ``` Arduino IDE ``` first, then open this project by clicking ``` File ``` -> ``` Open ``` : 
+
+   <table><tr><td width="810">
+      
+      ``` stickman_animation_lcd.ino ```
+
+   </td></tr></table><br>
    
-2. ``` Board Setup ``` in Arduino IDE<br><br>
-   • Method: click ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Nano ```.<br><br>
+2. ``` Board Setup ``` in Arduino IDE
 
-3. ``` Change Processor ``` in Arduino IDE.<br><br>
-   • Method: click ``` Tools ``` -> ``` Processor ``` -> ``` ATmega328P (Old Bootloader) ```.<br><br>
+   <table><tr><td width="810">
+      
+      Click ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Nano ```
 
-4. ``` Install Library ``` in Arduino IDE<br><br>
-   • Method: download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.<br><br>
+   </td></tr></table><br>
 
-5. ``` Port Setup ``` in Arduino IDE<br><br>
-   • Method: click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.<br><br>
+3. ``` Change Processor ``` in Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Click ``` Tools ``` -> ``` Processor ``` -> ``` ATmega328P (Old Bootloader) ```
+
+   </td></tr></table><br>
+
+4. ``` Install Library ``` in Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
+
+   </td></tr></table><br>
+
+5. ``` Port Setup ``` in Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```
+
+   </td></tr></table><br>
 
 6. Before uploading the program please click: ``` Verify ```.<br><br>
 
@@ -112,9 +138,14 @@ The stick man animation on this LCD is formed from special characters derived fr
 
 ## LCD Custom Character
 To easily create a LCD Custom Character, you can access the link below.
-```
-https://maxpromer.github.io/LCD-Character-Creator/
-```
+
+   <table><tr><td width="810">
+      
+      ```
+      https://maxpromer.github.io/LCD-Character-Creator/
+      ```
+
+   </td></tr></table>
 
 <br><br>
 
