@@ -18,31 +18,40 @@ Animasi stick man pada LCD ini dibentuk dari karakter khusus yang berasal dari p
 | Bahasa Pemrograman | C/C++ |
 | Pustaka Arduino | LiquidCrystal I2C |
 | Layar | LCD I2C (x1) |
-| Komponen Lainnya | Kabel Mini USB - USB tipe A (x1) dan Kabel jumper (1 set) |
+| Komponen Lainnya | • Kabel Mini USB - USB tipe A (x1)<br>• Kabel jumper (1 set) |
 
 <br><br>
 
 ## Unduh & Instal
 1. Arduino IDE
 
+   <table><tr><td width="810">
+
    ```
    https://www.arduino.cc/en/software
    ```
-<br>
+
+   </td></tr></table><br>
 
 2. USB-Serial CH340
+
+   <table><tr><td width="810">
 
    ```
    https://bit.ly/CH340_Driver
    ```
+
+   </td></tr></table>
    
 <br><br>
 
 ## Pengetahuan Dasar
-<img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/9f1ce021-724e-478b-87a5-e8716d9d75da" alt="lcd-i2c">
+<img width="840" src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/9f1ce021-724e-478b-87a5-e8716d9d75da" alt="lcd-i2c">
 <br><br>
 
-<strong>Gambar di atas menjelaskan bahwa LCD I2C 16x2 memiliki :</strong><br><br>
+<strong>Gambar di atas menjelaskan bahwa LCD I2C 16x2 memiliki :</strong> 
+
+<table><tr><td width="840">
 
 • Kolom -> ``` 16 ```
 
@@ -51,6 +60,8 @@ Animasi stick man pada LCD ini dibentuk dari karakter khusus yang berasal dari p
 • Byte yang ada dalam matriks led -> ``` 8 ```
 
 • Bit yang ada dalam matriks led -> masing-masing barisnya, ada ``` 5 ```
+
+</td></tr></table>
 
 <br><br>
 
