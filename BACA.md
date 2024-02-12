@@ -88,19 +88,52 @@ Animasi stick man pada LCD ini dibentuk dari karakter khusus yang berasal dari p
 <br><br>
 
 ## Pengaturan Arduino IDE
-1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek ini dengan cara klik: ``` File ``` -> ``` Open ``` -> ``` stickman_animation_lcd.ino ```.<br><br>
+1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek ini dengan cara klik ``` File ``` -> ``` Open ``` : 
+
+   <table><tr><td width="810">
+      
+      ``` stickman_animation_lcd.ino ```
+
+   </td></tr></table><br>
    
-2. ``` Pengaturan Board ``` di Arduino IDE<br><br>
-   • Cara: klik ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Nano ```.<br><br>
+2. ``` Pengaturan Board ``` di Arduino IDE
 
-3. ``` Ubah Processor ``` di Arduino IDE.<br><br>
-   • Cara: klik ``` Tools ``` -> ``` Processor ``` -> ``` ATmega328P (Old Bootloader) ```.<br><br>
+   <table>
+      <tr><th width="810">
 
-4. ``` Instal Pustaka ``` di Arduino IDE<br><br>
-   • Cara: unduh semua file zip pustaka. Kemudian tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.<br><br>
+      Cara mengatur board ``` Arduino Nano ```
+            
+      </th></tr>
+      <tr><td>
+         
+      Klik ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Nano ```
 
-5. ``` Pengaturan Port ``` di Arduino IDE<br><br>
-   • Cara: klik ``` Port ``` -> Pilih sesuai dengan port perangkat Anda ``` (Anda dapat melihatnya di Device Manager) ```.<br><br>
+      </td></tr>
+   </table><br>
+
+3. ``` Ubah Processor ``` di Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Klik ``` Tools ``` -> ``` Processor ``` -> ``` ATmega328P (Old Bootloader) ```
+
+   </td></tr></table><br>
+
+4. ``` Instal Pustaka ``` di Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Unduh semua file zip pustaka. Kemudian tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
+
+   </td></tr></table><br>
+
+5. ``` Pengaturan Port ``` di Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Klik ``` Port ``` -> Pilih sesuai dengan port perangkat anda ``` (anda dapat melihatnya di Device Manager) ```
+
+   </td></tr></table><br>
 
 6. Sebelum mengunggah program, silakan klik: ``` Verify ```.<br><br>
 
@@ -112,9 +145,14 @@ Animasi stick man pada LCD ini dibentuk dari karakter khusus yang berasal dari p
 
 ## Karakter Khusus LCD
 Untuk membuat Karakter Khusus LCD dengan mudah, anda dapat mengakses tautan di bawah ini.
+
+<table><tr><td width="840">
+      
 ```
 https://maxpromer.github.io/LCD-Character-Creator/
 ```
+
+</td></tr></table>
 
 <br><br>
 
