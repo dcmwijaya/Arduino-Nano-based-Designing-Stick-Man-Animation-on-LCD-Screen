@@ -98,11 +98,18 @@ The stick man animation on this LCD is formed from special characters derived fr
    
 2. ``` Board Setup ``` in Arduino IDE
 
-   <table><tr><td width="810">
+   <table>
+      <tr><th width="810">
+
+      How to setup the ``` Arduino Nano ``` board
+            
+      </th></tr>
+      <tr><td>
       
       Click ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Nano ```
 
-   </td></tr></table><br>
+      </td></tr>
+   </table><br>
 
 3. ``` Change Processor ``` in Arduino IDE
 
@@ -139,11 +146,11 @@ The stick man animation on this LCD is formed from special characters derived fr
 ## LCD Custom Character
 To easily create a LCD Custom Character, you can access the link below.
 
-   <table><tr><td width="810">
+   <table><tr><td width="840">
       
-      ```
-      https://maxpromer.github.io/LCD-Character-Creator/
-      ```
+   ```
+   https://maxpromer.github.io/LCD-Character-Creator/
+   ```
 
    </td></tr></table>
 
