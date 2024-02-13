@@ -15,6 +15,7 @@ The stick man animation on this LCD is formed from special characters derived fr
 | Development Board | Arduino Nano V3 |
 | Code Editor | Arduino IDE |
 | Driver | USB-Serial CH340 |
+| Communications Protocol | Inter Integrated Circuit (I2C) |
 | Programming Language | C/C++ |
 | Arduino Library | LiquidCrystal_I2C |
 | Display | LCD I2C (x1) |
