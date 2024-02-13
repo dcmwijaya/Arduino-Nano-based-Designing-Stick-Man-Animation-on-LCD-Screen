@@ -15,6 +15,7 @@ Animasi stick man pada LCD ini dibentuk dari karakter khusus yang berasal dari p
 | Papan Pengembangan | Arduino Nano V3 |
 | Editor Kode | Arduino IDE |
 | Driver | USB-Serial CH340 |
+| Protokol Komunikasi | Inter Integrated Circuit (I2C) |
 | Bahasa Pemrograman | C/C++ |
 | Pustaka Arduino | LiquidCrystal_I2C |
 | Layar | LCD I2C (x1) |
