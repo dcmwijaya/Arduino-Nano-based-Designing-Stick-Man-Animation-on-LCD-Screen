@@ -16,7 +16,7 @@ The stick man animation on this LCD is formed from special characters derived fr
 | Code Editor | Arduino IDE |
 | Driver | USB-Serial CH340 |
 | Programming Language | C/C++ |
-| Arduino Library | LiquidCrystal I2C |
+| Arduino Library | LiquidCrystal_I2C |
 | Display | LCD I2C (x1) |
 | Other Components | • Mini USB cable - USB type A (x1)<br>• Jumper cable (1 set) |
 
