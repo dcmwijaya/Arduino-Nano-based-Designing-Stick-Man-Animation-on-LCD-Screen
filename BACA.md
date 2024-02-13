@@ -16,7 +16,7 @@ Animasi stick man pada LCD ini dibentuk dari karakter khusus yang berasal dari p
 | Editor Kode | Arduino IDE |
 | Driver | USB-Serial CH340 |
 | Bahasa Pemrograman | C/C++ |
-| Pustaka Arduino | LiquidCrystal I2C |
+| Pustaka Arduino | LiquidCrystal_I2C |
 | Layar | LCD I2C (x1) |
 | Komponen Lainnya | • Kabel Mini USB - USB tipe A (x1)<br>• Kabel jumper (1 set) |
 
