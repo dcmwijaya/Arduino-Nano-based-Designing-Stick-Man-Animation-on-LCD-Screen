@@ -60,7 +60,7 @@ Animasi stick man pada LCD ini dibentuk dari karakter khusus yang berasal dari p
 
 • Byte yang ada dalam matriks led -> ``` 8 ```
 
-• Bit yang ada dalam matriks led -> masing-masing barisnya, ada ``` 5 ```
+• Bit yang ada dalam matriks led -> masing-masing barisnya ada ``` 5 ```
 
 </td></tr></table>
 
