@@ -140,7 +140,7 @@ The stick man animation on this LCD is formed from special characters derived fr
 
 7. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
 
-8. If there is still a problem when uploading the program, then try checking the ```driver ``` / ``` port ``` / ``` others ``` section.
+8. If there is still a problem when uploading the program, then try checking the ``` driver ``` / ``` port ``` / ``` others ``` section.
 
 <br><br>
 
