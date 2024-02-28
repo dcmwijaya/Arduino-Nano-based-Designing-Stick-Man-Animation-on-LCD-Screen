@@ -46,6 +46,22 @@ LCD functions as a character viewer. Generally, the characters displayed are in 
    
 <br><br>
 
+## Project Designs
+<table>
+<tr>
+<th width="280">Block Diagram</th>
+<th width="280">Pictorial Diagram</th>
+<th width="280">Wiring</th>
+</tr>
+<tr>
+<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/86645f07-2b03-44b0-a649-1347747f9dbf" alt="Block-Diagram"></td>
+<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/3e2b6786-8d2b-450b-9fa2-7ab93a2e1152" alt="Pictorial-Diagram"></td>
+<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/516899d8-86c8-4ad7-b30a-7a641fe961bf" alt="Wiring"></td>
+</tr>
+</table>
+
+<br><br>
+
 ## Basic Knowledge
 <img width="840" src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/9f1ce021-724e-478b-87a5-e8716d9d75da" alt="lcd-i2c">
 <br><br>
@@ -63,28 +79,6 @@ LCD functions as a character viewer. Generally, the characters displayed are in 
 • Bits in each led matrix -> in each row there are ``` 5 ```
 
 </td></tr></table>
-
-<br><br>
-
-## Project Designs
-<table>
-<tr>
-<th width="420">Block Diagram</th>
-<th width="420">Pictorial Diagram</th>
-</tr>
-<tr>
-<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/86645f07-2b03-44b0-a649-1347747f9dbf" alt="Block-Diagram"></td>
-<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/3e2b6786-8d2b-450b-9fa2-7ab93a2e1152" alt="Pictorial-Diagram"></td>
-</tr>
-</table>
-<table>
-<tr>
-<th width="840">Wiring</th>
-</tr>
-<tr>
-<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/516899d8-86c8-4ad7-b30a-7a641fe961bf" alt="Wiring"></td>
-</tr>
-</table>
 
 <br><br>
 
