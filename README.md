@@ -5,7 +5,7 @@
 
 # Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen
 <strong>Solo Project: Stick Man Animation on LCD Screen</strong><br><br>
-The stick man animation on this LCD is formed from special characters derived from the image pixels settings. Next, you need to arrange the layout of the image bytes in a column and row. To be able to move like an animation, you need to loop.
+LCD functions as a character viewer. Generally, the characters displayed are in the form of writing, but actually LCD can also display images, even LCD can also display an animation from the results of looping. The purpose of this project is to educate the public on how to customize the characters on the I2C LCD. This project has been implemented and takes approximately 1 day. The result of this project is Stick Man animation.
 
 <br><br>
 
