@@ -19,7 +19,7 @@ LCD berfungsi sebagai penampil karakter. Umumnya karakter yang ditampilkan itu b
 | Bahasa Pemrograman | C/C++ |
 | Pustaka Arduino | LiquidCrystal_I2C |
 | Layar | LCD I2C (x1) |
-| Komponen Lainnya | • Kabel Mini USB - USB tipe A (x1)<br>• Kabel jumper (1 set) |
+| Komponen Lainnya | • Kabel USB Mini - USB tipe A (x1)<br>• Kabel jumper (1 set) |
 
 <br><br>
 
