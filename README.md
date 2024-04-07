@@ -14,7 +14,7 @@ LCD functions as a character viewer. Generally, the characters displayed are in 
 | --- | --- |
 | Development Board | Arduino Nano V3 |
 | Code Editor | Arduino IDE |
-| Driver | USB-Serial CH340 |
+| Driver | CH340 USB Driver |
 | Communications Protocol | Inter Integrated Circuit (I2C) |
 | Programming Language | C/C++ |
 | Arduino Library | LiquidCrystal_I2C |
@@ -29,17 +29,17 @@ LCD functions as a character viewer. Generally, the characters displayed are in 
    <table><tr><td width="810">
 
    ```
-   https://www.arduino.cc/en/software
+   https://bit.ly/ArduinoIDE_Installer
    ```
 
    </td></tr></table><br>
 
-2. USB-Serial CH340
+2. CH340 USB Driver
 
    <table><tr><td width="810">
 
    ```
-   https://bit.ly/CH340_Driver
+   https://bit.ly/CH340_USB_Driver
    ```
 
    </td></tr></table>
