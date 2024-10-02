@@ -1,7 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen?logo=Codeforces&logoColor=white&color=%23F7DF1E)
 ![Project](https://img.shields.io/badge/Project-Arduino-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen
 <strong>Solo Project: Stick Man Animation on LCD Screen</strong><br><br>
@@ -54,16 +55,16 @@ LCD functions as a character viewer. Generally, the characters displayed are in 
 <th width="280">Wiring</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/86645f07-2b03-44b0-a649-1347747f9dbf" alt="Block-Diagram"></td>
-<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/3e2b6786-8d2b-450b-9fa2-7ab93a2e1152" alt="Pictorial-Diagram"></td>
-<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/516899d8-86c8-4ad7-b30a-7a641fe961bf" alt="Wiring"></td>
+<td><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="block-diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Pictorial Diagram.jpg" alt="pictorial-diagram"></td>
+<td><img src="Assets/Documentation/Table/Device Wiring.jpg" alt="wiring"></td>
 </tr>
 </table>
 
 <br><br>
 
 ## Basic Knowledge
-<img width="840" src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/9f1ce021-724e-478b-87a5-e8716d9d75da" alt="lcd-i2c">
+<img width="840" src="Assets/Documentation/Knowledge/LCD.jpg" alt="lcd-i2c">
 <br><br>
 
 <strong>The picture above explains that the 16x2 I2C LCD has :</strong>
@@ -219,8 +220,8 @@ To easily create a LCD Custom Character, you can access the link below.
 <th width="420">Animation display-2</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/2a595eea-eddd-4437-bc9a-6fd36fc2099c" alt="display-1"></td>
-<td><img src="https://github.com/devancakra/Arduino-Nano-based-Designing-Stick-Man-Animation-on-LCD-Screen/assets/54527592/3e1530d8-5c63-4401-af09-10768c10e239" alt="display-2"></td>
+<td><img src="Assets/Documentation/Experiment/Display-1.jpg" alt="display-1"></td>
+<td><img src="Assets/Documentation/Experiment/Display-2.jpg" alt="display-2"></td>
 </tr>
 </table>
 
@@ -232,7 +233,7 @@ If this work is useful to you, then support this work as a form of appreciation 
 <br><br>
 
 ## Disclaimer
-This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
+This application is my own work and is not the result of plagiarism from other people's research or work, except those related to third party services which include: editor code, libraries, frameworks, and so on.
 
 <br><br>
 
