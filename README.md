@@ -360,7 +360,7 @@ void loop() {
 
    </td></tr></table><br>
 
-6. Before uploading the program please click: ``` Verify ```.<br><br>
+6. Before uploading the program, please click: ``` Verify ```.<br><br>
 
 7. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
 
